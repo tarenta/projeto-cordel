@@ -1,0 +1,118 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: antiquewhite;
+    min-height: 100vh;
+    font-family: var(--fonte1);    
+}
+
+header {
+    
+    background-color: black;
+    box-shadow: darkgrey;
+    
+}
+
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte2);
+    font-size: 10vw;
+}
+
+header p {
+    padding-bottom: 50px;
+    color: aliceblue;
+    text-align: center;
+    vertical-align: center;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10px;
+}
+
+section.branco{
+    background-color: white;
+    min-height: 100vh;
+}
+
+section.branco article {
+    background-color: white;
+}
+
+section.transparente {
+    background-color: transparent;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.199);
+}
+
+section.transparente article {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.521);
+}
+
+article {
+    width: fit-content;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    padding-right: 20px;
+}
+
+article p {
+    font-size: 3vw;
+    min-height: 12vh;
+    
+}
+
+#joaninha {
+    background-image: url(imagens/background001.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}        
+
+#papel {
+    background-image: url(imagens/background002.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
